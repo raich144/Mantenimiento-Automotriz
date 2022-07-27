@@ -1,0 +1,15 @@
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\bin\Debug\net6.0\RepuestoAutomotrizApp.exe
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\bin\Debug\net6.0\RepuestoAutomotrizApp.deps.json
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\bin\Debug\net6.0\RepuestoAutomotrizApp.runtimeconfig.json
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\bin\Debug\net6.0\RepuestoAutomotrizApp.dll
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\bin\Debug\net6.0\RepuestoAutomotrizApp.pdb
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\obj\Debug\net6.0\RepuestoAutomotrizApp.csproj.AssemblyReference.cache
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\obj\Debug\net6.0\RepuestoAutomotrizApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\obj\Debug\net6.0\RepuestoAutomotrizApp.AssemblyInfoInputs.cache
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\obj\Debug\net6.0\RepuestoAutomotrizApp.AssemblyInfo.cs
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\obj\Debug\net6.0\RepuestoAutomotrizApp.csproj.CoreCompileInputs.cache
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\obj\Debug\net6.0\RepuestoAutomotrizApp.dll
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\obj\Debug\net6.0\refint\RepuestoAutomotrizApp.dll
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\obj\Debug\net6.0\RepuestoAutomotrizApp.pdb
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\obj\Debug\net6.0\RepuestoAutomotrizApp.genruntimeconfig.cache
+C:\Users\ripia\source\repos\RepuestoAutomotrizApp\RepuestoAutomotrizApp\obj\Debug\net6.0\ref\RepuestoAutomotrizApp.dll

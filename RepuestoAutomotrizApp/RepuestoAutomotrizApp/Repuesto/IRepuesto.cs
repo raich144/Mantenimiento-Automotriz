@@ -8,6 +8,7 @@ namespace RepuestoAutomotrizApp.Repuesto
 {
     public interface IRepuesto
     {
-        public string CalularPresupuesto();
+        public string insertarItemProforma();
+        public double insertarTotalProforma();
     }
 }

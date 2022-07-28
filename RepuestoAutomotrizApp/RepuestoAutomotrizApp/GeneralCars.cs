@@ -21,7 +21,7 @@ namespace RepuestoAutomotrizApp
 
         public void CreateRepuestos() 
         {
-            //Label titulo = sistema.createLabel("Are yu Sure?.");
+            
             Axial axial = marca.createAxial(5);
             Rotula rotula = marca.createRotula(5);
             Terminal terminal = marca.createTerminal(5);
@@ -33,17 +33,35 @@ namespace RepuestoAutomotrizApp
 
         public void realizarProforma() 
         {
-            string screen = "";
+            string item = "";
+            double total = 0.00;
             foreach (var repuesto in listaRepuesto)
             {
-                screen = repuesto.CalularPresupuesto();
+                total += repuesto.insertarTotalProforma();
+                item += repuesto.insertarItemProforma();       
             }
-            Console.WriteLine("---------------------------------------------------------------------------");
-            Console.WriteLine("|  \t\tPROFROMA 0001 : REPUESTOS PARA AUTO HONDA\t\t  |");
-            Console.WriteLine("---------------------------------------------------------------------------");
-            Console.WriteLine("| CANT.\t| " + "\t\tDESCRIPCION\t\t| " + "P. UNITARIO | " + " IMPORTE  |");
-            Console.WriteLine("---------------------------------------------------------------------------");
-            Console.WriteLine(screen);
+            imprimirCabecera();
+            Console.WriteLine(item);
+            imprimirTotal(total);
+            
+        }
+
+        public void imprimirCabecera()
+        {
+            string cabecera = "---------------------------------------------------------------------------\n"
+                            + "|  \t\tPROFROMA 0001 : REPUESTOS PARA AUTO \t\t\t   |\n"
+                            + "---------------------------------------------------------------------------\n"
+                            + "| CANT.\t| " + "\t\tDESCRIPCION\t\t| " + "P. UNITARIO | " + " IMPORTE   |\n"
+                            + "---------------------------------------------------------------------------";
+            Console.WriteLine(cabecera);    
+        }
+
+        public void imprimirTotal(double total)
+        {
+            string totalItem = "|      \t| " + "\t\t           \t\t| " + "TOTAL:       | " + " " + total + "    |\n"
+                            + "---------------------------------------------------------------------------";
+
+            Console.WriteLine(totalItem);
         }
     }
 }

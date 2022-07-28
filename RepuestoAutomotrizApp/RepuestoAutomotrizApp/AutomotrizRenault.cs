@@ -1,4 +1,4 @@
-﻿using RepuestoAutomotrizApp.Honda;
+﻿using RepuestoAutomotrizApp.Renault;
 using RepuestoAutomotrizApp.Repuesto;
 using System;
 using System.Collections.Generic;
@@ -8,21 +8,21 @@ using System.Threading.Tasks;
 
 namespace RepuestoAutomotrizApp
 {
-    public class AutomotrizHonda : IAutomotriz
+    public class AutomotrizRenault : IAutomotriz
     {
         public Axial createAxial(int cantidad)
         {
-            return new HondaAxial(cantidad);
+            return new RenaultAxial(cantidad);
         }
 
         public Rotula createRotula(int cantidad)
         {
-            return new HondaRotula(cantidad);
+            throw new NotImplementedException();
         }
 
         public Terminal createTerminal(int cantidad)
         {
-            return new HondaTerminal(cantidad);  
+            throw new NotImplementedException();
         }
     }
 }

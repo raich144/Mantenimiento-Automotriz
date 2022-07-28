@@ -8,7 +8,9 @@ namespace RepuestoAutomotrizApp.Repuesto
 {
     public abstract class Terminal : IRepuesto
     {
-        public abstract string CalularPresupuesto();
+       public abstract string insertarItemProforma();
+
+        public abstract double insertarTotalProforma();
        
     }
 }

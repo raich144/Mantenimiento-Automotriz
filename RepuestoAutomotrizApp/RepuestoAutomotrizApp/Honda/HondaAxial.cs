@@ -1,4 +1,5 @@
-﻿using RepuestoAutomotrizApp.Repuesto;
+﻿
+using RepuestoAutomotrizApp.Repuesto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,16 +11,18 @@ namespace RepuestoAutomotrizApp.Honda
     public class HondaAxial : Axial
     {
         //Atributos
-        const string DESCRIPCION = "Axial marca Honda";
+        const string DESCRIPCION = "Axial original Honda";
         const double PRECIO = 15.55;
         int cantidad;
 
+        //Varibale global
+        double total = 0.00;
         public HondaAxial(int cantidad)
         {
             this.cantidad = cantidad;
         }
 
-        public override string CalularPresupuesto()
+        public override string insertarItemProforma()
         {
             double importe = this.cantidad * PRECIO;
             importe = Math.Round(importe, 2);
@@ -28,6 +31,12 @@ namespace RepuestoAutomotrizApp.Honda
                                 "---------------------------------------------------------------------------";
 
             return presupuesto;
+        }
+
+        public override double insertarTotalProforma()
+        {
+            total = cantidad * PRECIO;
+            return total;
         }
     }
 }

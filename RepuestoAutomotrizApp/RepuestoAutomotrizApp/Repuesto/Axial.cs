@@ -8,6 +8,10 @@ namespace RepuestoAutomotrizApp.Repuesto
 {
     public abstract class Axial : IRepuesto
     {
-        public abstract string CalularPresupuesto();
+
+        public abstract string insertarItemProforma();
+
+        public abstract double insertarTotalProforma();
+       
     }
 }

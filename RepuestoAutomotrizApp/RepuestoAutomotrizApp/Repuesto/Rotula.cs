@@ -8,6 +8,9 @@ namespace RepuestoAutomotrizApp.Repuesto
 {
     public abstract class Rotula : IRepuesto
     {
-        public abstract string CalularPresupuesto();
+        public abstract string insertarItemProforma();
+
+        public abstract double insertarTotalProforma();
+       
     }
 }
